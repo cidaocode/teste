@@ -1,0 +1,122 @@
+body {
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+
+
+}
+
+ul {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+
+
+}
+
+ul a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    align-items: center;
+     border: 5px solid greenyellow; 
+     border-radius: 50%; 
+    /* box-shadow: 10px 10px 10px 10px white;*/
+    width: 300px;
+    height: 300px;
+}
+/* .foto-perfil{
+    border: 5px solid greenyellow; 
+    border-radius: 50%; 
+} */
+
+
+
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.foto p {
+    font-size: 50px;
+    align-items: center;
+    color: greenyellow;
+
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-size-adjust: 20px;
+
+}
+
+section h1 {
+    font-size: 40px;
+    color: greenyellow;
+}
+
+section h2 {
+    font-size: 40px;
+    color: greenyellow;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#181716 ;
+}
+
+/* footer img {
+    width: 40px;
+    height: 40px;
+} */
+
+.git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 43, 43);
+    flex-direction: column;
+    text-transform: uppercase;
+
+
+}
+
+.img-git {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: blue; */
+    background-color: white;
+    border: 5px solid greenyellow; 
+    border-radius: 50%; 
+}
+
+.icon img {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border: none;
+
+
+}
